@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Educational Bank</title>
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="bank.css">
+
+
+</head>
+<body>
+    <div class="menu c">
+        <div class="logo c">
+            <p>Educational<br>Bank</p>
+        </div>
+        <div class="search-box c">
+            <input type="text" name="text" class="search" placeholder="搜尋">
+        </div>
+    </div>
+    <div class="empty-block"></div>
+    <div class="empty-block c">
+        <h1>開始尋找</h1>
+    </div>
+    <div class="block-4 c">
+        <form class="form c" action="bank.php" method="POST">
+            <div class="form-block c">
+                <input class="input4 input4-w1" name="" placeholder="補助領域">
+            </div>
+            <div class="form-block c">
+                <input class="input4 input4-w1" name="" placeholder="補助金額">
+            </div>
+            <div class="form-block c">
+                <button class="btn1" src="#" >搜尋</button>
+                <button class="btn1" src="#" >清除</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- <div class="c">
+        <div class="line1"></div>
+    </div> -->
+
+    <div class="select_container c">
+            <div class="select_box c">
+                <div class="select_img c" onclick="openNewWindow()">
+                    <img src="img/computer.png" alt="">
+                </div>
+                <p>國際稽核國際稽核軟體應用師</p>
+                <p>資訊類 | 國立高雄科技大學 | 王OO</p>
+                <p>募資金額2,080元</p>
+            </div>
+            <div class="select_box c">
+                <div class="select_img c">
+                    <img src="img/accounting.png" alt="">
+                </div>
+                <p>會計師執照</p>
+                <p>財金類 | 國立高雄科技大學 | 王OO</p>
+                <p>募資金額2,080元</p>
+            </div>
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <script src="bank.js"> </script>
+
+
+</body>
+</html>

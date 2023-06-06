@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Educational Bank</title>
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="bank.css">
+
+
+</head>
+<body>
+    <div class="menu c">
+        <div class="logo c">
+            <p>Educational<br>Bank</p>
+        </div>
+        <div class="search-box c">
+            <input type="text" name="text" class="search" placeholder="搜尋">
+        </div>
+    </div>
+    <div class="empty-block">
+
+    </div>
+    <div class="empty-block c">
+        <h1>提案類型</h1>
+    </div>
+    
+    <div class="block-3 c">
+        <div class="card1 c">
+            <h3>群眾募資</h3>
+            <p>在一定期限內完成所需資金</p>
+            <button class="button1">開始提案</button>
+        </div>
+        <div class="card1 c mt2">
+            <h3>訂閱專案</h3>
+            <p>持續性的計畫持續獲得資金</p>
+            <button class="button1">開始提案</button>
+        </div>
+    </div>
+    <div class="block-4 c">
+        <form class="form c" action="bank.php" method="POST">
+            <div class="form-block c">
+                <div class="form-content c">
+                    姓名
+                </div>
+                <input  class="input4 input4-w1" name="username">
+            </div>
+            <div class="form-block c">
+                <div class="form-content c">
+                    電子信箱
+                </div>
+                <input  class="input4 input4-w1" name="useremail">
+            </div>
+            <div class="form-block c">
+                <div class="form-content-w c">
+                    開始時間
+                </div>
+                <input class="input4 input4-w2" name="startime">
+                <div class="form-content-w c">
+                    結束時間
+                </div>
+                <input class="input4 input4-w2" name="endtime">
+            </div>
+            <div class="form-block c">
+                <div class="form-content c">
+                    目標金額
+                </div>
+                <input  class="input4 input4-w1" name="founds">
+            </div>
+            <div class="form-block c">
+                <div class="form-content c">
+                    提案類型
+                </div>
+                <input  class="input4 input4-w1" name="proposal_type">
+            </div>
+            <div class="form-block c">
+                <div class="form-content c">
+                    提案名稱
+                </div>
+                <input  class="input4 input4-w1" name="proposal_name">
+            </div>
+            <div class="form-block c">
+                <div class="form-content c">
+                    提案介紹
+                </div>
+                <input  class="input4 input4-w1" name="introduce">
+            </div>
+            <button class="submit">確定提案</button>
+        </form>
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <script src="bank.js"> </script>
+
+
+</body>
+</html>
